@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   background-color: #FF7979;
+   overflow: hidden;
+}
+
+.css-main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url(images/bg-intro-desktop.png);
+}
+
+.css-descripton {
+    padding-left: 15%;
+    padding-top: 15%;
+    width: 50%;
+}
+
+.css-descripton h1 {
+    font-family: "Poppins Bold";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    color: white;
+}
+
+.css-descripton p {
+    font-family: "Poppins Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: white;
+}
+
+.css-content {
+    padding-top: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 700px;
+}
+
+.css-content .css-try-btn {
+    background-color: #5E54A4;
+    width: 540px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Poppins";
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 5px 6px black;
+}
+
+.css-content .css-try-btn span {
+    font-weight: bold;
+}
+
+.css-sign-up-form {
+    margin-top: 25px;
+    padding: 5%;
+    border-radius: 10px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.css-input {
+    display: flex;
+    flex-direction: row;
+    width: 460px;
+    height: 56px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    align-items: center;
+    padding-right: 3%;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+
+.css-input-error {
+    border: 1px solid red;
+}
+
+.css-input input{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #3D3B48;
+    padding-left: 5%;
+    width: 460px;
+    height: 54px;
+    border: none;
+    border-radius: 5px;
+}
+
+.css-error {
+    visibility: hidden;
+    width: 24px;
+    height: 24px;
+}
+
+.css-error-img-visible  {
+    visibility: visible;
+}
+
+.css-error-msg {
+    visibility: hidden;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-style: italic;
+    font-size: 11px;
+    line-height: 16.5px;
+    color: #FF7979;
+    align-self: flex-end;
+    padding-right: 4%;
+}
+
+.css-error-msg-visible {
+    visibility: visible;
+}
+
+.css-content .css-free-trial-btn {
+    background-color: #38CC8B;
+    width: 460px;
+    height: 56px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Poppins";
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+.css-content .css-free-trial-btn:hover {
+    background-color: #77E2B3;
+}
+
+.css-content .css-terms {
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 11px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: -2%;
+    color: black;
+}
+
+.css-content .css-terms span {
+    color: red;
+}
