@@ -78,6 +78,7 @@ body {
 }
 
 .css-input {
+    position: relative;
     display: flex;
     flex-direction: row;
     width: 460px;
@@ -85,7 +86,6 @@ body {
     border: 1px solid lightgray;
     border-radius: 5px;
     align-items: center;
-    padding-right: 3%;
     border-radius: 5px;
     margin-bottom: -10px;
 }
@@ -108,6 +108,8 @@ body {
 }
 
 .css-error {
+    position: absolute;
+    right: 16px;
     visibility: hidden;
     width: 24px;
     height: 24px;
@@ -165,4 +167,62 @@ body {
 
 .css-content .css-terms span {
     color: red;
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .css-main {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .css-descripton {
+        padding-left: 0%;
+        padding-top: 0%;
+        width: 327px;
+        height: 226px;
+    }
+
+    .css-descripton h1 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+    
+    .css-descripton p {
+        text-align: center;
+    }
+
+    .css-content {
+        width: 327px;
+        height: 554px;
+    }
+    
+    .css-content .css-try-btn {
+        width: 327px;
+        height: 88px;
+        font-weight: 400;
+    }
+
+    .css-sign-up-form {
+        height: 442px;
+    }
+
+    .css-input {
+        width: 327px;
+        height: 56px;
+        margin-bottom: -10px;
+    }
+
+    .css-input input {
+        width: 279px;
+    }
+    
+    .css-content .css-free-trial-btn {
+        width: 279px;
+    }
 }
