@@ -34,6 +34,7 @@ body {
     font-weight: 500;
     line-height: 26px;
     color: white;
+    padding-right: 55px;
 }
 
 .css-content {
@@ -173,8 +174,8 @@ body {
 
 @media screen and (max-width: 450px) {
     .css-main {
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -191,10 +192,12 @@ body {
         font-size: 28px;
         line-height: 36px;
         text-align: center;
+        margin-top: 13%;
     }
     
     .css-descripton p {
         text-align: center;
+        padding-right: 0px;
     }
 
     .css-content {
@@ -209,11 +212,13 @@ body {
     }
 
     .css-sign-up-form {
+        width: 327px;
         height: 442px;
+        gap: 5px;
     }
 
     .css-input {
-        width: 327px;
+        width: 279px;
         height: 56px;
         margin-bottom: -10px;
     }
@@ -224,5 +229,14 @@ body {
     
     .css-content .css-free-trial-btn {
         width: 279px;
+    }
+
+    .css-content .css-terms {
+        font-weight: 700;
+        line-height: 21px;
+    }
+    
+    .css-error-msg {
+        margin-top: 3px;
     }
 }
